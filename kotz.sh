@@ -16,7 +16,7 @@ echo "Masukan Angka Pertama :"
 read p
 echo "Masukan Angka Kedua:"
 read q
-tambah=$( echo "p + q" | bc )
+tambah=$( echo "$p + $q" | bc )
 echo "Hasil Penambahan= $tambah"
 fi
 
@@ -26,7 +26,7 @@ echo "Masukan Angka Pertama :"
 read p
 echo "Masukan Angka Kedua:"
 read q
-kurang=$( echo "p - q" | bc )
+kurang=$( echo "$p - $q" | bc )
 echo "Hasil Pengurangan= $kurang"
 fi
 
@@ -36,7 +36,7 @@ echo "Masukan Angka Pertama :"
 read p
 echo "Masukan Angka Kedua:"
 read q
-kali=$( echo "p * q" | bc )
+kali=$( echo "$p * $q" | bc )
 echo "Hasil perkalian= $kali"
 fi
 
@@ -46,7 +46,7 @@ echo "Masukan Angka Pertama :"
 read p
 echo "Masukan Angka Kedua:"
 read q
-bagi=$( echo "p / q" | bc )
+bagi=$( echo "$p / $q" | bc )
 echo "Hasil Pembagian= $bagi"
 fi
 
